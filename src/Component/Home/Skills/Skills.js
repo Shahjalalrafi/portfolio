@@ -12,7 +12,8 @@ const Skills = () => {
     return (
         <div className={`${styles.container} ${styles.skills}`}>
             <div data-aos="fade-right" className={styles.details}>
-                <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                <p>Hello! I'm Shahjalal rafi, a passionate Web developer. A self-motivated and enthusiastic web developer with a deep interest in JavaScript. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I am available for any kind of job opportunity that suits my interests.
+                </p>
                 <button className={styles.btn}>Contact Me</button>
             </div>
             <div data-aos="fade-left" className={styles.content}>
