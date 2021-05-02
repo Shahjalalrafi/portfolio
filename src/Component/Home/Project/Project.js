@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Project.module.css'
 import hairShine from '../../../Images/hairshine.PNG'
 import homeMarket from '../../../Images/home-market.PNG'

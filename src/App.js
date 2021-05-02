@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Component/Home/Home/Home';
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import "aos/dist/aos.css"
 import About from './Component/About/About/About';
 import Work from './Component/Work/Work/Work';

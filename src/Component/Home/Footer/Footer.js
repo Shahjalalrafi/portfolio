@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faCode, faSignInAlt, faStar} from '@fortawesome/free-solid-svg-icons'
+import {faStar} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
