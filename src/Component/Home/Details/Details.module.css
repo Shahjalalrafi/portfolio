@@ -1,0 +1,78 @@
+.Details {
+    display: flex;
+    padding: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.myDetails {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.myDetails small{
+    color: cyan;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: #061C33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 10px;
+    transition: .4s ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(5, 224, 224);
+}
+
+.btnOutline {
+    padding: 10px 20px;
+    background-color: none;
+    color: #061C33;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 10px;
+    transition: .4s ease-in;
+}
+
+.btnOutline:hover {
+    background-color: cyan;
+
+}
+
+.myImage {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.myImage img {
+    width: 70%;
+}
+
+.myDetails a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 780px) {
+    .Details {
+        display: block;
+    }
+    .myDetails {
+        text-align: center;
+    }
+    .myImage {
+        text-align: center;
+        padding: 20px 0;
+    }
+}

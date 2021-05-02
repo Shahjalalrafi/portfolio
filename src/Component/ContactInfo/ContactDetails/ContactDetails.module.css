@@ -1,0 +1,53 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.name,.email{
+    width: 400px;
+    padding: 8px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    display: block;
+    margin: 3px;
+}
+
+.name:focus {
+    color: #333;
+}
+
+.textArea {
+    /* display: block; */
+    width: 400px;
+    height: 200px;
+    padding: 8px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    margin: 3px;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: #061C33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 10px;
+    transition: .4s ease-in;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 780px) {
+    .contact {
+        width: 400px;
+    }
+}

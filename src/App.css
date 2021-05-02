@@ -1,11 +1,19 @@
+body {
+  /* background-color: #061C33; */
+  background: radial-gradient( #14447a , #021a33 );
+  background-repeat: no-repeat;
+  color: white;
+}
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 0 0 50px 0;
+}
+
+.btnOutline {
+    padding: 10px 20px;
+    background-color: none;
+    color: #061C33;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 10px;
+    transition: .4s ease-in;
+}
+
+.btnOutline:hover {
+    background-color: cyan;
+}
+
+.contact p {
+    font-size: 12px;
+}
