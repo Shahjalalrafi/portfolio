@@ -1,0 +1,67 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: #061C33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 10px;
+    transition: .4s ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(5, 224, 224);
+}
+
+.skills {
+    display: flex;
+    padding: 0 0 50px 0;
+    align-items: center;
+}
+
+.details {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.content {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+.content span {
+    float: left;
+    overflow: hidden;
+    background: cyan;
+    color: black;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.content .comfort {
+    clear: left;
+    padding-top: 15px;
+}
+@media screen and (max-width: 780px) {
+    .skills {
+        display: block;
+    }
+    .details {
+        text-align: center;
+    }
+    .content {
+        padding: 20px 0;
+    }
+}
