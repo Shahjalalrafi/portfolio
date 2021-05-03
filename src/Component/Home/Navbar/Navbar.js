@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link style={{textDecoration: "none"}} to='/work'><li>Work</li></Link>
             <Link style={{textDecoration: "none"}} to='/blog'><li>Blog</li></Link>
             <Link style={{textDecoration: "none"}} to='/contact'><li>Contact</li></Link>
-            <a style={{textDecoration: "none"}} href="../../../Images/resume.pdf" download><li>Resume</li></a>
+            <a style={{textDecoration: "none"}} href="https://docs.google.com/document/d/1_gPW7vIzUMGcGkLoTkRW_o534uWfcHkhEHjcfO3zpU8/edit" rel="noreferrer" target="_blank"><li>Resume</li></a>
           </ul>
         </nav>
       </div>
